@@ -1,0 +1,13 @@
+# Cloudflare Pages redirects for chocoma
+# Clean URLs - map extensionless paths to HTML files
+/products   /products.html   200
+/about      /about.html      200
+/contact    /contact.html    200
+
+# Trailing slash normalization
+/products/   /products   301
+/about/      /about      301
+/contact/    /contact    301
+
+# Root
+/            /index.html   200
